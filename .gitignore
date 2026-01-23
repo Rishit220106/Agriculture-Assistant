@@ -6,6 +6,19 @@ __pycache__/
 venv/
 .env
 
+# ML datasets
+DiseaseDetection/Train/
+DiseaseDetection/data/
+DiseaseDetection/dataset/
+
+# Large binaries
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.tif
+*.tiff
+
 # ML / Data
 dataset/
 data/

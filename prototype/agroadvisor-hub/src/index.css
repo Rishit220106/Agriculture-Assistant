@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* AgroGuide Design System - Academic/Institutional Aesthetic */
+
+@layer base {
+  :root {
+    /* Core backgrounds */
+    --background: 210 20% 98%;
+    --foreground: 220 20% 15%;
+
+    /* Card surfaces */
+    --card: 0 0% 100%;
+    --card-foreground: 220 20% 15%;
+
+    /* Popover */
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 20% 15%;
+
+    /* Primary - Muted Forest Green (Agricultural) */
+    --primary: 145 35% 28%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary - Slate Blue (Institutional) */
+    --secondary: 210 25% 93%;
+    --secondary-foreground: 220 20% 20%;
+
+    /* Muted surfaces */
+    --muted: 210 15% 94%;
+    --muted-foreground: 220 10% 45%;
+
+    /* Accent - Soft Teal */
+    --accent: 180 25% 90%;
+    --accent-foreground: 180 35% 25%;
+
+    /* Destructive / Warning */
+    --destructive: 0 65% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Borders and inputs */
+    --border: 210 20% 88%;
+    --input: 210 20% 88%;
+    --ring: 145 35% 28%;
+
+    --radius: 0.375rem;
+
+    /* Status colors - Agricultural context */
+    --status-healthy: 145 50% 40%;
+    --status-attention: 45 80% 50%;
+    --status-risk: 0 65% 50%;
+    --status-healthy-bg: 145 50% 95%;
+    --status-attention-bg: 45 80% 95%;
+    --status-risk-bg: 0 65% 95%;
+
+    /* Panel styling */
+    --panel-header: 210 15% 96%;
+    --panel-border: 210 20% 85%;
+
+    /* Sidebar */
+    --sidebar-background: 220 20% 18%;
+    --sidebar-foreground: 210 20% 90%;
+    --sidebar-primary: 145 35% 45%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 20% 25%;
+    --sidebar-accent-foreground: 210 20% 95%;
+    --sidebar-border: 220 15% 25%;
+    --sidebar-ring: 145 35% 45%;
+    --sidebar-muted: 220 15% 35%;
+  }
+
+  .dark {
+    --background: 220 20% 10%;
+    --foreground: 210 20% 95%;
+    --card: 220 20% 12%;
+    --card-foreground: 210 20% 95%;
+    --popover: 220 20% 12%;
+    --popover-foreground: 210 20% 95%;
+    --primary: 145 40% 45%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 15% 20%;
+    --secondary-foreground: 210 20% 90%;
+    --muted: 220 15% 18%;
+    --muted-foreground: 210 15% 60%;
+    --accent: 180 20% 20%;
+    --accent-foreground: 180 30% 80%;
+    --destructive: 0 60% 45%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 15% 22%;
+    --input: 220 15% 22%;
+    --ring: 145 40% 45%;
+    --panel-header: 220 15% 15%;
+    --panel-border: 220 15% 25%;
+    --sidebar-background: 220 25% 8%;
+    --sidebar-foreground: 210 20% 90%;
+    --sidebar-primary: 145 35% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 20% 15%;
+    --sidebar-accent-foreground: 210 20% 95%;
+    --sidebar-border: 220 15% 15%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    font-family: 'Source Sans 3', system-ui, sans-serif;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight text-foreground;
+  }
+}
+
+@layer components {
+  /* Panel component */
+  .panel {
+    @apply bg-card rounded-md overflow-hidden;
+    border: 1px solid hsl(var(--panel-border));
+  }
+
+  .panel-header {
+    @apply px-4 py-3;
+    background-color: hsl(var(--panel-header));
+    border-bottom: 1px solid hsl(var(--panel-border));
+  }
+
+  .panel-title {
+    @apply text-sm font-semibold uppercase tracking-wide text-muted-foreground;
+  }
+
+  .panel-content {
+    @apply p-4;
+  }
+
+  /* Status badges */
+  .status-healthy {
+    @apply bg-status-healthy-bg text-status-healthy;
+  }
+
+  .status-attention {
+    @apply bg-status-attention-bg text-status-attention;
+  }
+
+  .status-risk {
+    @apply bg-status-risk-bg text-status-risk;
+  }
+
+  /* Info card */
+  .info-card {
+    @apply bg-card border border-border rounded-md p-4;
+  }
+
+  /* Section header */
+  .section-header {
+    @apply mb-6;
+  }
+
+  .section-title {
+    @apply text-xl font-semibold text-foreground mb-1;
+  }
+
+  .section-description {
+    @apply text-sm text-muted-foreground;
+  }
+
+  /* Form styling */
+  .form-group {
+    @apply space-y-2;
+  }
+
+  .form-label {
+    @apply text-sm font-medium text-foreground;
+  }
+
+  .form-hint {
+    @apply text-xs text-muted-foreground mt-1;
+  }
+}
+
+@layer utilities {
+  .text-status-healthy {
+    color: hsl(var(--status-healthy));
+  }
+  
+  .text-status-attention {
+    color: hsl(var(--status-attention));
+  }
+  
+  .text-status-risk {
+    color: hsl(var(--status-risk));
+  }
+
+  .bg-status-healthy {
+    background-color: hsl(var(--status-healthy));
+  }
+  
+  .bg-status-attention {
+    background-color: hsl(var(--status-attention));
+  }
+  
+  .bg-status-risk {
+    background-color: hsl(var(--status-risk));
+  }
+}

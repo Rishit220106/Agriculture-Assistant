@@ -1,0 +1,212 @@
+{
+  "American Bollworm on Cotton": {
+    "crop": "Cotton",
+    "severity": "High",
+    "advisory": "Monitor cotton fields regularly for boll damage. Remove and destroy affected bolls. Use pheromone traps to track pest activity and consult agricultural officers for integrated pest management measures."
+  },
+  "Anthracnose on Cotton": {
+    "crop": "Cotton",
+    "severity": "Medium",
+    "advisory": "Avoid water stagnation and ensure proper field drainage. Use certified disease-free seeds and follow recommended crop rotation practices."
+  },
+  "Army worm": {
+    "crop": "Multiple",
+    "severity": "High",
+    "advisory": "Inspect crops during early growth stages. Remove egg masses manually if visible and seek guidance on suitable biological or chemical control methods."
+  },
+  "Becterial Blight in Rice": {
+    "crop": "Rice",
+    "severity": "High",
+    "advisory": "Avoid excessive nitrogen fertilization. Use resistant rice varieties where available and maintain field hygiene to reduce disease spread."
+  },
+  "Brownspot": {
+    "crop": "Rice",
+    "severity": "Medium",
+    "advisory": "Maintain balanced fertilization and avoid moisture stress. Early detection and proper nutrient management can reduce disease impact."
+  },
+  "Common_Rust": {
+    "crop": "Maize",
+    "severity": "Medium",
+    "advisory": "Remove infected plant residues after harvest. Follow recommended sowing times and use resistant hybrids if available."
+  },
+  "Cotton Aphid": {
+    "crop": "Cotton",
+    "severity": "Medium",
+    "advisory": "Check the underside of leaves regularly. Encourage natural predators and avoid unnecessary pesticide use."
+  },
+  "Flag Smut": {
+    "crop": "Wheat",
+    "severity": "High",
+    "advisory": "Use certified treated seeds and practice crop rotation. Avoid sowing infected seed material."
+  },
+  "Gray_Leaf_Spot": {
+    "crop": "Maize",
+    "severity": "Medium",
+    "advisory": "Ensure proper spacing between plants and remove crop residues after harvest to reduce disease carryover."
+  },
+  "Healthy Maize": {
+    "crop": "Maize",
+    "severity": "None",
+    "advisory": "The crop appears healthy. Continue regular monitoring and follow recommended agronomic practices."
+  },
+  "Healthy Wheat": {
+    "crop": "Wheat",
+    "severity": "None",
+    "advisory": "The crop appears healthy. Maintain proper irrigation, nutrition, and regular field inspection."
+  },
+  "Healthy cotton": {
+    "crop": "Cotton",
+    "severity": "None",
+    "advisory": "The crop appears healthy. Continue standard crop management and pest monitoring practices."
+  },
+  "Leaf Curl": {
+    "crop": "Cotton",
+    "severity": "High",
+    "advisory": "Control insect vectors and remove affected plants early. Avoid late sowing and maintain field sanitation."
+  },
+  "Leaf smut": {
+    "crop": "Rice",
+    "severity": "Medium",
+    "advisory": "Use resistant varieties and ensure proper spacing to reduce humidity within the crop canopy."
+  },
+  "Mosaic sugarcane": {
+    "crop": "Sugarcane",
+    "severity": "High",
+    "advisory": "Remove infected plants and use healthy planting material. Control insect vectors to prevent spread."
+  },
+  "RedRot sugarcane": {
+    "crop": "Sugarcane",
+    "severity": "High",
+    "advisory": "Avoid ratooning infected fields. Use resistant varieties and follow proper crop rotation."
+  },
+  "RedRust sugarcane": {
+    "crop": "Sugarcane",
+    "severity": "Medium",
+    "advisory": "Improve field drainage and remove infected leaves. Maintain balanced fertilization."
+  },
+  "Rice Blast": {
+    "crop": "Rice",
+    "severity": "High",
+    "advisory": "Avoid dense planting and excess nitrogen. Use resistant varieties and monitor during humid conditions."
+  },
+  "Sugarcane Healthy": {
+    "crop": "Sugarcane",
+    "severity": "None",
+    "advisory": "The crop appears healthy. Continue recommended agronomic and irrigation practices."
+  },
+  "Tungro": {
+    "crop": "Rice",
+    "severity": "High",
+    "advisory": "Control insect vectors and remove infected plants promptly. Use resistant rice varieties."
+  },
+  "Wheat Brown leaf Rust": {
+    "crop": "Wheat",
+    "severity": "Medium",
+    "advisory": "Monitor crop regularly and follow recommended fungicide schedules if disease pressure increases."
+  },
+  "Wheat Stem fly": {
+    "crop": "Wheat",
+    "severity": "Medium",
+    "advisory": "Avoid late sowing and maintain proper field sanitation. Monitor seedlings during early stages."
+  },
+  "Wheat aphid": {
+    "crop": "Wheat",
+    "severity": "Medium",
+    "advisory": "Encourage natural predators and monitor aphid population levels before taking control measures."
+  },
+  "Wheat black rust": {
+    "crop": "Wheat",
+    "severity": "High",
+    "advisory": "Use resistant varieties and avoid excessive nitrogen application. Monitor regularly during cool, humid weather."
+  },
+  "Wheat leaf blight": {
+    "crop": "Wheat",
+    "severity": "Medium",
+    "advisory": "Remove crop residues and ensure proper field drainage. Balanced fertilization helps reduce disease severity."
+  },
+  "Wheat mite": {
+    "crop": "Wheat",
+    "severity": "Medium",
+    "advisory": "Avoid moisture stress and control weed hosts. Early detection helps prevent yield loss."
+  },
+  "Wheat powdery mildew": {
+    "crop": "Wheat",
+    "severity": "Medium",
+    "advisory": "Avoid overcrowding and excessive nitrogen use. Monitor fields during cool, humid conditions."
+  },
+  "Wheat scab": {
+    "crop": "Wheat",
+    "severity": "High",
+    "advisory": "Use resistant varieties and avoid continuous wheat cultivation. Proper residue management is important."
+  },
+  "Wheat___Yellow_Rust": {
+    "crop": "Wheat",
+    "severity": "High",
+    "advisory": "Monitor crop during early stages and follow recommended fungicide schedules if required."
+  },
+  "Wilt": {
+    "crop": "Multiple",
+    "severity": "High",
+    "advisory": "Improve soil drainage and avoid water stress. Crop rotation and soil health management are recommended."
+  },
+  "Yellow Rust Sugarcane": {
+    "crop": "Sugarcane",
+    "severity": "Medium",
+    "advisory": "Remove infected leaves and maintain balanced nutrition. Monitor crop during cool weather conditions."
+  },
+  "bacterial_blight in Cotton": {
+    "crop": "Cotton",
+    "severity": "High",
+    "advisory": "Use disease-free seeds and avoid overhead irrigation. Maintain field sanitation."
+  },
+  "bollrot on Cotton": {
+    "crop": "Cotton",
+    "severity": "Medium",
+    "advisory": "Ensure proper aeration within the crop canopy and avoid prolonged moisture conditions."
+  },
+  "bollworm on Cotton": {
+    "crop": "Cotton",
+    "severity": "High",
+    "advisory": "Monitor boll stages carefully and follow integrated pest management practices."
+  },
+  "cotton mealy bug": {
+    "crop": "Cotton",
+    "severity": "Medium",
+    "advisory": "Remove heavily infested plants and control ant populations that spread mealybugs."
+  },
+  "cotton whitefly": {
+    "crop": "Cotton",
+    "severity": "Medium",
+    "advisory": "Monitor whitefly population regularly and avoid excessive pesticide use."
+  },
+  "maize ear rot": {
+    "crop": "Maize",
+    "severity": "High",
+    "advisory": "Harvest crops timely and avoid mechanical damage. Maintain proper field hygiene."
+  },
+  "maize fall armyworm": {
+    "crop": "Maize",
+    "severity": "High",
+    "advisory": "Inspect whorls regularly and seek guidance on biological and chemical control measures."
+  },
+  "maize stem borer": {
+    "crop": "Maize",
+    "severity": "High",
+    "advisory": "Destroy crop residues after harvest and monitor stem damage during early growth."
+  },
+  "pink bollworm in cotton": {
+    "crop": "Cotton",
+    "severity": "High",
+    "advisory": "Avoid prolonged cotton cropping cycles and use pheromone traps for monitoring."
+  },
+  "red cotton bug": {
+    "crop": "Cotton",
+    "severity": "Medium",
+    "advisory": "Remove alternate host plants and maintain clean field conditions."
+  },
+  "thirps on  cotton": {
+    "crop": "Cotton",
+    "severity": "Medium",
+    "advisory": "Monitor young leaves for thrips damage and maintain balanced fertilization."
+  }
+}
